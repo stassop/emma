@@ -77,6 +77,7 @@ const Avatars: React.FC<AvatarsProps> = ({
     <View style={styles.container}>
       <ScrollView
         ref={scrollViewRef}
+        testID='Avatars'
         horizontal={true}
         snapToOffsets={offsets}
         onScroll={onScroll}
@@ -90,6 +91,7 @@ const Avatars: React.FC<AvatarsProps> = ({
               key={item.id}
               style={styles.item}
               onPress={() => onItemClick(index)}
+              testID={`Avatars_${item.id}`}
             >
               <Image
                 source={require('../assets/user.png')}

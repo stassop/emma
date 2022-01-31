@@ -74,6 +74,7 @@ const Descriptions: React.FC<DescriptionsProps> = ({
     >
       <ScrollView
         ref={scrollViewRef}
+        testID='Descriptions'
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
@@ -83,6 +84,7 @@ const Descriptions: React.FC<DescriptionsProps> = ({
         { users.map((item: User) => (
             <View
               key={item.id}
+              testID={`Descriptions_${item.id}`}
               style={[styles.item, {height: itemHeight}]}
             >
               <Text style={styles.name}>{item.name}</Text>
