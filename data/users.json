@@ -1,168 +1,196 @@
 [
   {
 		"name": "Allan Munger",
+    "title": "Solutions",
 		"image": "Allan Munger.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cd900-8082-11ec-a8a3-0242ac120002"
   },
   {
 		"name": "Amanda Brady",
+    "title": "Program",
 		"image": "Amanda Brady.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cdb6c-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Ashley Mc Carthy",
+    "title": "Brand",
 		"image": "Ashley Mc Carthy.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cdcde-8082-11ec-a8a3-0242ac120002"
   },
   {
 		"name": "Carlos Slattery",
+    "title": "Security",
 		"image": "Carlos Slattery.png",
 		"description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cde00-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Carole Poland",
+    "title": "Research",
 		"image": "Carole Poland.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cdffe-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Cecil Folk",
+    "title": "Marketing",
 		"image": "Cecil Folk.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ce404-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Celeste Burton",
+    "title": "Directives",
 		"image": "Celeste Burton.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ce54e-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Charlotte Waltson",
+    "title": "Implementation",
 		"image": "Charlotte Waltson.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ce670-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Colin Ballinger",
+    "title": "Integration",
 		"image": "Colin Ballinger.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ce77e-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Daisy Phillips",
+    "title": "Functionality",
 		"image": "Daisy Phillips.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ce9cc-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Elliot Woodward",
+    "title": "Tactics",
 		"image": "Elliot Woodward.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ceaee-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Elvia Atkins",
+    "title": "Identity",
 		"image": "Elvia Atkins.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cec1a-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Erik Nason",
+    "title": "Markets",
 		"image": "Erik Nason.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ced3c-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Henry Brill",
+    "title": "Applications",
 		"image": "Henry Brill.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740ceeb8-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Isaac Fielder",
+    "title": "Operations",
 		"image": "Isaac Fielder.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cf0b6-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Johnie McConnell",
+    "title": "Infrastructure",
 		"image": "Johnie McConnell.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cf1ce-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Kat larsson",
+    "title": "Communications",
 		"image": "Kat larsson.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cf3b8-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Katri Ahokas",
+    "title": "Branding",
 		"image": "Katri Ahokas.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cf5de-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Kevin Sturgis",
+    "title": "Creative",
 		"image": "Kevin Sturgis.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cf958-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Kristin Patterson",
+    "title": "Usability",
 		"image": "Kristin Patterson.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cfb9c-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Lydia Bauer",
+    "title": "Metrics",
 		"image": "Lydia Bauer.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cfcbe-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Mauricio August",
+    "title": "Team",
 		"image": "Mauricio August.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740cfef8-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Miguel Garcia",
+    "title": "Intranet",
 		"image": "Miguel Garcia.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d0006-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Mona Kane",
+    "title": "Web",
 		"image": "Mona Kane.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d01f0-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Robert Tolbert",
+    "title": "Quality Assurance",
 		"image": "Robert Tolbert.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d0312-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Robin Counts",
+    "title": "Ideation",
 		"image": "Robin Counts.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d0420-8082-11ec-a8a3-0242ac120002"
 	},
   {
 		"name": "Tim Deboer",
+    "title": "Optimization",
 		"image": "Tim Deboer.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d0632-8082-11ec-a8a3-0242ac120002"
 	},
   {
     "name": "Wanda Howard",
+    "title": "Mobility",
 		"image": "Wanda Howard.png",
     "description": "In condimentum in tortor sed accumsan. Donec rhoncus, lectus rutrum egestas gravida, felis eros interdum dolor, non ullamcorper dolor massa ac justo. Sed nec viverra augue. Etiam nisi nunc, ornare non egestas in, consectetur eu leo. Phasellus eu nisi vel dolor dignissim suscipit eget ut lacus. Pellentesque id nibh id est interdum consequat vel sed arcu. Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
 		"id": "740d081c-8082-11ec-a8a3-0242ac120002"

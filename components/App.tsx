@@ -12,6 +12,7 @@ import Descriptions from './Descriptions';
 export interface User {
   id: string,
   name: string,
+  title: string,
   image: string,
   description: string,
 }

@@ -86,7 +86,8 @@ const Descriptions: React.FC<DescriptionsProps> = ({
               style={[styles.item, {height: itemHeight}]}
             >
               <Text style={styles.name}>{item.name}</Text>
-              <Text>{item.description}</Text>
+              <Text style={styles.title}>{item.title}</Text>
+              <Text style={styles.description}>{item.description}</Text>
             </View>
           ))
         }
@@ -106,8 +107,18 @@ const styles = StyleSheet.create({
     color: 'black',
     fontWeight: 'bold',
     fontSize: 24,
-    marginBottom: 10,
+    textAlign: 'center',
   },
+  title: {
+    color: 'gray',
+    fontSize: 20,
+    textAlign: 'center',
+  },
+  description: {
+    color: 'gray',
+    fontSize: 16,
+    marginVertical: 10,
+  }
 });
 
 export default React.memo(Descriptions);
