@@ -1,4 +1,4 @@
-import { ScrollView, Image, Text } from 'react-native';
+import { Image, Text } from 'react-native';
 import React from 'react';
 
 // Note: test renderer must be required after react-native.
