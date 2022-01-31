@@ -8,13 +8,22 @@ import App from '../components/App';
 import Avatars from '../components/Avatars';
 import Descriptions from '../components/Descriptions';
 
-const usersMock = [{
-  name: "Tom Cruise",
-  title: "Actor",
-  image: "Tom Cruise.png",
-  description: "Thomas Cruise Mapother IV (born July 3, 1962) is an American actor and producer.",
-  id: "123",
-}]
+const usersMock = [
+  {
+		"name": "Allan Munger",
+    "title": "Solutions",
+		"image": "Allan Munger.png",
+    "description": "In condimentum in tortor sed accumsan.",
+		"id": "740cd900-8082-11ec-a8a3-0242ac120002"
+  },
+  {
+		"name": "Amanda Brady",
+    "title": "Program",
+		"image": "Amanda Brady.png",
+    "description": "Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.",
+		"id": "740cdb6c-8082-11ec-a8a3-0242ac120002"
+	},
+]
 
 jest.mock('../data/users.json', () => usersMock);
 
@@ -25,13 +34,20 @@ describe('App', () => {
     expect(app.findAllByType(Avatars)).toHaveLength(1);
     expect(app.findAllByType(Descriptions)).toHaveLength(1);
 
-    const images = app.findByType(Avatars).findByType(ScrollView).findAllByType(Image);
-    expect(images).toHaveLength(1);
+    const avatar1 = app.findByProps({testID: 'Avatars_740cd900-8082-11ec-a8a3-0242ac120002'});
+    expect(avatar1.findAllByType(Image)).toHaveLength(1);
 
-    const texts = app.findByType(Descriptions).findByType(ScrollView).findAllByType(Text);
-    expect(texts).toHaveLength(3);
-    expect(texts[0].props.children).toBe('Tom Cruise');
-    expect(texts[1].props.children).toBe('Actor');
-    expect(texts[2].props.children).toBe('Thomas Cruise Mapother IV (born July 3, 1962) is an American actor and producer.');
+    const avatar2 = app.findByProps({testID: 'Avatars_740cdb6c-8082-11ec-a8a3-0242ac120002'});
+    expect(avatar2.findAllByType(Image)).toHaveLength(1);
+
+    const item1 = app.findByProps({testID: 'Descriptions_740cd900-8082-11ec-a8a3-0242ac120002'});
+    expect(item1.findAllByType(Text)[0].props.children).toBe('Allan Munger');
+    expect(item1.findAllByType(Text)[1].props.children).toBe('Solutions');
+    expect(item1.findAllByType(Text)[2].props.children).toBe('In condimentum in tortor sed accumsan.');
+
+    const item2 = app.findByProps({testID: 'Descriptions_740cdb6c-8082-11ec-a8a3-0242ac120002'});
+    expect(item2.findAllByType(Text)[0].props.children).toBe('Amanda Brady');
+    expect(item2.findAllByType(Text)[1].props.children).toBe('Program');
+    expect(item2.findAllByType(Text)[2].props.children).toBe('Nunc eros odio, accumsan eget arcu sit amet, mollis faucibus diam.');
   });
 });

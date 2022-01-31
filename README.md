@@ -1,4 +1,4 @@
-## Requirements:
+## Requirements
 
 - Please avoid using 3rd-party libraries: we want to see your code and problem solving.
 - App content: you can read the list of contacts and their info from a local .json file.
