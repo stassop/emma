@@ -12,22 +12,22 @@ import { User } from './App';
 
 interface AvatarsProps {
   users: Array<User>,
-  selectedIndex: number,
-  setSelectedIndex: (index: number) => void,
   offset: number,
   setOffset: (offset: number) => void,
   scroller: string,
   setScroller: (scroller: string) => void,
+  selectedIndex: number,
+  setSelectedIndex: (index: number) => void,
 }
 
 const Avatars: React.FC<AvatarsProps> = ({
   users,
-  selectedIndex,
-  setSelectedIndex,
   offset,
   setOffset,
   scroller,
   setScroller,
+  selectedIndex,
+  setSelectedIndex,
 }: AvatarsProps) => {
   const self = useRef<string>('Avatars').current;
   const scrollViewRef = useRef<ScrollView>(null);
@@ -65,25 +65,31 @@ const Avatars: React.FC<AvatarsProps> = ({
     }
   }, [offsets, scroller]);
 
-  const onItemClick = useCallback((index: number) => {
-    setSelectedIndex(index);
+  const onScrollStart = useCallback(() => {
+    setScroller(self);
   }, []);
 
-  const setScrollerSelf = useCallback(() => {
-    setScroller(self);
+  const onScrollEnd = useCallback(() => {
+    setSelectedIndex(Math.floor(offset * offsets.length));
+  }, [offset, offsets]);
+
+  const onItemClick = useCallback((index: number) => {
+    setSelectedIndex(index);
   }, []);
 
   return (
     <View style={styles.container}>
       <ScrollView
         ref={scrollViewRef}
-        testID='Avatars'
+        testID={self}
         horizontal={true}
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
-        onScrollBeginDrag={setScrollerSelf}
-        onMomentumScrollBegin={setScrollerSelf}
+        // onScrollEndDrag={onScrollEnd}
+        // onMomentumScrollEnd={onScrollEnd}
+        onScrollBeginDrag={onScrollStart}
+        onMomentumScrollBegin={onScrollStart}
         contentContainerStyle={{paddingHorizontal: padding}}
       >
         { users.map((item: User, index: number) => (
@@ -91,7 +97,7 @@ const Avatars: React.FC<AvatarsProps> = ({
               key={item.id}
               style={styles.item}
               onPress={() => onItemClick(index)}
-              testID={`Avatars_${item.id}`}
+              testID={`${self}_${item.id}`}
             >
               <Image
                 source={require('../assets/user.png')}

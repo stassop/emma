@@ -27,20 +27,21 @@ const App = () => {
       <StatusBar />
       <Avatars
         users={users as Array<User>}
-        selectedIndex={selectedIndex}
-        setSelectedIndex={setSelectedIndex}
         offset={offset}
         setOffset={setOffset}
         scroller={scroller}
         setScroller={setScroller}
+        selectedIndex={selectedIndex}
+        setSelectedIndex={setSelectedIndex}
       />
       <Descriptions
         users={users as Array<User>}
-        selectedIndex={selectedIndex}
         offset={offset}
         setOffset={setOffset}
         scroller={scroller}
         setScroller={setScroller}
+        selectedIndex={selectedIndex}
+        setSelectedIndex={setSelectedIndex}
       />
     </SafeAreaView>
   );

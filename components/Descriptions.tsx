@@ -11,20 +11,22 @@ import { User } from './App';
 
 interface DescriptionsProps {
   users: Array<User>,
-  selectedIndex: number,
   offset: number,
   setOffset: (offset: number) => void,
   scroller: string,
   setScroller: (scroller: string) => void,
+  selectedIndex: number,
+  setSelectedIndex: (index: number) => void,
 }
 
 const Descriptions: React.FC<DescriptionsProps> = ({
   users,
-  selectedIndex,
   offset,
   setOffset,
   scroller,
   setScroller,
+  selectedIndex,
+  setSelectedIndex,
 }: DescriptionsProps) => {
   const self = useRef<string>('Descriptions').current;
   const scrollViewRef = useRef<ScrollView>(null);
@@ -63,9 +65,13 @@ const Descriptions: React.FC<DescriptionsProps> = ({
     }
   }, [offsets, scroller]);
 
-  const setScrollerSelf = useCallback(() => {
+  const onScrollStart = useCallback(() => {
     setScroller(self);
   }, []);
+
+  const onScrollEnd = useCallback(() => {
+    setSelectedIndex(Math.floor(offset * offsets.length));
+  }, [offset, offsets]);
 
   return (
     <View
@@ -74,17 +80,19 @@ const Descriptions: React.FC<DescriptionsProps> = ({
     >
       <ScrollView
         ref={scrollViewRef}
-        testID='Descriptions'
+        testID={self}
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
-        onScrollBeginDrag={setScrollerSelf}
-        onMomentumScrollBegin={setScrollerSelf}
+        // onScrollEndDrag={onScrollEnd}
+        // onMomentumScrollEnd={onScrollEnd}
+        onScrollBeginDrag={onScrollStart}
+        onMomentumScrollBegin={onScrollStart}
       >
         { users.map((item: User) => (
             <View
               key={item.id}
-              testID={`Descriptions_${item.id}`}
+              testID={`${self}_${item.id}`}
               style={[styles.item, {height: itemHeight}]}
             >
               <Text style={styles.name}>{item.name}</Text>
