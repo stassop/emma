@@ -71,3 +71,10 @@ Run the tests:
 ```
 detox test --configuration ios
 ```
+
+## Backlog
+
+* Use `Animated.ScrollView`
+* Landscape and orientation change handling
+* Detox tests for Android
+* Have tests play nice with `React.memo`
