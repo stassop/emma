@@ -84,8 +84,8 @@ const Descriptions: React.FC<DescriptionsProps> = ({
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
-        // onScrollEndDrag={onScrollEnd}
-        // onMomentumScrollEnd={onScrollEnd}
+        onScrollEndDrag={onScrollEnd}
+        onMomentumScrollEnd={onScrollEnd}
         onScrollBeginDrag={onScrollStart}
         onMomentumScrollBegin={onScrollStart}
       >

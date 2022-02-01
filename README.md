@@ -14,7 +14,7 @@
 - Make your app's main component(s) reusable and package them as you would do if you were to distribute it as open source for other developers to use.
 - Tapping on a profile picture should navigate to a "detail" view about the tapped contact. You are free to style that view as you like.
 
-## Run the app
+## Running the app
 
 Make sure your [React Native environment](https://reactnative.dev/docs/environment-setup) is set up correctly.
 
@@ -37,13 +37,17 @@ npx react-native run-android
 
 ### Unit
 
-For unit tests run:
+The unit tests are here: `__tests__/App-test.tsx`
+
+Run the tests:
 
 ```
 npm test
 ```
 
 ### Detox
+
+The Detox tests are here: `e2e/appTest.e2e.js`
 
 Make sure iPhone 13 Simulator is installed.
 
