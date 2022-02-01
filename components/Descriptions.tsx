@@ -90,6 +90,7 @@ const Descriptions: React.FC<DescriptionsProps> = ({
         onMomentumScrollEnd={onScrollEnd}
         // onScrollBeginDrag={onScrollStart}
         onMomentumScrollBegin={onScrollStart}
+        sendMomentumEvents={true}
       >
         { users.map((item: User) => (
             <View

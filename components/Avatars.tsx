@@ -94,6 +94,7 @@ const Avatars: React.FC<AvatarsProps> = ({
         // onScrollBeginDrag={onScrollStart}
         onMomentumScrollBegin={onScrollStart}
         contentContainerStyle={{paddingHorizontal: padding}}
+        sendMomentumEvents={true}
       >
         { users.map((item: User, index: number) => (
             <TouchableOpacity
