@@ -40,12 +40,12 @@ const Avatars: React.FC<AvatarsProps> = ({
   useEffect(() => {
     if (scroller !== self) {
       scrollViewRef.current?.scrollTo({
-        x: offset * offsets[offsets.length-1],
+        x: offset * offsets[offsets.length - 1],
         y: 0,
         animated: false,
       });
     }
-  }, [offset, scroller]);
+  }, [offsets, offset, scroller]);
 
   useEffect(() => {
     scrollViewRef.current?.scrollTo({
@@ -61,7 +61,7 @@ const Avatars: React.FC<AvatarsProps> = ({
 
   const onScroll = useCallback(({ nativeEvent: { contentOffset }}) => {
     if (scroller === self) {
-      setOffset(contentOffset.x / offsets[offsets.length-1]);
+      setOffset(contentOffset.x / offsets[offsets.length - 1]);
     }
   }, [offsets, scroller]);
 
@@ -70,10 +70,13 @@ const Avatars: React.FC<AvatarsProps> = ({
   }, []);
 
   const onScrollEnd = useCallback(() => {
-    setSelectedIndex(Math.floor(offset * offsets.length));
-  }, [offset, offsets]);
+    if (scroller === self) {
+      setSelectedIndex(Math.floor(offset * (offsets.length - 1)));
+    }
+  }, [offsets, offset, scroller]);
 
   const onItemClick = useCallback((index: number) => {
+    setScroller(self);
     setSelectedIndex(index);
   }, []);
 
@@ -86,9 +89,9 @@ const Avatars: React.FC<AvatarsProps> = ({
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
-        onScrollEndDrag={onScrollEnd}
+        // onScrollEndDrag={onScrollEnd}
         onMomentumScrollEnd={onScrollEnd}
-        onScrollBeginDrag={onScrollStart}
+        // onScrollBeginDrag={onScrollStart}
         onMomentumScrollBegin={onScrollStart}
         contentContainerStyle={{paddingHorizontal: padding}}
       >

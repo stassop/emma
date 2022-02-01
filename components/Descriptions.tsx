@@ -45,11 +45,11 @@ const Descriptions: React.FC<DescriptionsProps> = ({
     if (scroller !== self) {
       scrollViewRef.current?.scrollTo({
         x: 0,
-        y: offset * offsets[offsets.length-1],
+        y: offset * offsets[offsets.length - 1],
         animated: false,
       });
     }
-  }, [offset, scroller]);
+  }, [offsets, offset, scroller]);
 
   useEffect(() => {
     scrollViewRef.current?.scrollTo({
@@ -61,7 +61,7 @@ const Descriptions: React.FC<DescriptionsProps> = ({
 
   const onScroll = useCallback(({ nativeEvent: { contentOffset }}) => {
     if (scroller === self) {
-      setOffset(contentOffset.y / offsets[offsets.length-1]);
+      setOffset(contentOffset.y / offsets[offsets.length - 1]);
     }
   }, [offsets, scroller]);
 
@@ -70,8 +70,10 @@ const Descriptions: React.FC<DescriptionsProps> = ({
   }, []);
 
   const onScrollEnd = useCallback(() => {
-    setSelectedIndex(Math.floor(offset * offsets.length));
-  }, [offset, offsets]);
+    if (scroller === self) {
+      setSelectedIndex(Math.floor(offset * (offsets.length - 1)));
+    }
+  }, [offsets, offset, scroller]);
 
   return (
     <View
@@ -84,9 +86,9 @@ const Descriptions: React.FC<DescriptionsProps> = ({
         snapToOffsets={offsets}
         onScroll={onScroll}
         scrollEventThrottle={16}
-        onScrollEndDrag={onScrollEnd}
+        // onScrollEndDrag={onScrollEnd}
         onMomentumScrollEnd={onScrollEnd}
-        onScrollBeginDrag={onScrollStart}
+        // onScrollBeginDrag={onScrollStart}
         onMomentumScrollBegin={onScrollStart}
       >
         { users.map((item: User) => (

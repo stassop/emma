@@ -15,7 +15,7 @@ describe('App', () => {
   });
 
   it('should handle avatar scrolling', async () => {
-    await element(by.type('UIScrollView').withAncestor(by.id('Avatars'))).scroll(100, 'right'); // scroll to second avatar
+    await element(by.type('UIScrollView').withAncestor(by.id('Avatars'))).scroll(50, 'right'); // scroll to second avatar
     await expect(element(by.id('Descriptions_740cd900-8082-11ec-a8a3-0242ac120002'))).not.toBeVisible(); // first item
     await expect(element(by.id('Descriptions_740cdb6c-8082-11ec-a8a3-0242ac120002'))).toBeVisible(); // second iten
   });
